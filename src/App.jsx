@@ -81,7 +81,7 @@ function App() {
         <Experience/>
       </Section>
       <Section id="projects" className="bg-background-secondary">
-        <div className='flex items-start flex-col gap-2 md:gap-4 h-full w-full text-white'>
+        <div className='flex items-center flex-col gap-2 md:gap-4 h-full w-full text-white'>
           <Badge text={"Projects"}/>
           <h2 className='text-white text-3xl md:text-5xl font-bold'>My Projects</h2>
           <Projects/>
